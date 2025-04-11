@@ -3,7 +3,7 @@ from wtforms import StringField, IntegerField, SubmitField
 
 class AddForm(FlaskForm):
 
-    name = StringField('Name of Puppy:')
+    name = StringField('')
     submit = SubmitField('Add Puppy')
 
 class DelForm(FlaskForm):
